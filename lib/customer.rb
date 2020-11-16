@@ -17,7 +17,7 @@ class Customer
   end
 
   def meals
-    if Meal.customer = self
+    if Meal.customer == self
       Meal.all.collect do |customer|
       end
     end
