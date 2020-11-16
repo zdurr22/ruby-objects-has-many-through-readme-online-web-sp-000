@@ -18,6 +18,7 @@ class Customer
 
   def meals
     Meal.all.collect do |customer|
+    end
   end
 
 
