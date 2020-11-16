@@ -23,5 +23,12 @@ class Customer
     end
   end
 
+  def waiters
+    if Waiter.customer == self
+      Waiter.all.collect do |customer|
+      end
+    end
+  end
+
 
 end
