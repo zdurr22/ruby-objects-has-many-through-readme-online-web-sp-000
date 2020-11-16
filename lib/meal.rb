@@ -14,7 +14,4 @@ class Meal
     @@all
   end
 
-  def self.customer
-    @customer
-  end
 end
