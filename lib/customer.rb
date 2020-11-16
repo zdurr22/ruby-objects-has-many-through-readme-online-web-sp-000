@@ -23,7 +23,7 @@ class Customer
   end
 
   def waiters
-      Meals.collect do |meal|
+      Meal.collect do |meal|
         meal.waiter
       end
   end
