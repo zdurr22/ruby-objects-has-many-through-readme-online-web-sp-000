@@ -25,11 +25,6 @@ class Customer
 
   def waiters
       Waiter.all.collect do |customer|
-        if customer == self
-          @array = []
-          @array << customer
-          @array
-        end
       end
   end
 
