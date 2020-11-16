@@ -19,6 +19,7 @@ class Customer
   def meals
     if Meal.customer = self
       Meal.all.collect do |customer|
+      end
     end
   end
 
